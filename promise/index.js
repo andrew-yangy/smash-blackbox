@@ -1,0 +1,1 @@
+console.log(new Promise(function(resolve, reject) {}))
