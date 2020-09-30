@@ -168,8 +168,8 @@ const resolvePromise = (promise2, x, resolve, reject) => {
 //     }
 //   )
 
-new Promise((resolve, reject) => {
-  resolve('data');
-})
-  .then(() => 'newData')
-  .then(console.log)
+// new Promise((resolve, reject) => {
+//   resolve('data');
+// })
+//   .then(() => 'newData')
+//   .then(console.log)
