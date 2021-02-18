@@ -1,0 +1,24 @@
+{
+  "name": "bundler",
+  "version": "1.0.0",
+  "description": "simple webpack",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Yanng",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/highlight": "^7.12.13",
+    "@babel/parser": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/traverse": "^7.12.13"
+  },
+  "dependencies": {
+    "babylon": "^6.18.0",
+    "cli-highlight": "^2.1.10",
+    "js-beautify": "^1.13.5"
+  }
+}
