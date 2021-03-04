@@ -4,6 +4,9 @@
   "description": "simple webpack",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "webpack": "bin/webpack-cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +22,7 @@
   "dependencies": {
     "babylon": "^6.18.0",
     "cli-highlight": "^2.1.10",
+    "commander": "^7.1.0",
     "js-beautify": "^1.13.5"
   }
 }
